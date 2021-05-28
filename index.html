@@ -25,6 +25,19 @@ document.getElementById('reset').innerHTML = "Reset done";
     document.getElementById("link").target = "_blank"
   }
   
+  function myFunction() {
+  document.getElementById("myCheck").click();
+}
 </script>
+
+
+
+
+
+<input type="checkbox" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occured')">
+
+
+
+
 
 <button id=reload onClick=location.reload()>Reload</button>
