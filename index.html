@@ -1,5 +1,17 @@
 <h1 id=reset onClick='reset()' type=buton>Reset</h1>
+
+<h1 id=question onCLick="q()"></h1>
+
+<title>javascript tester</title>
+
 <script>
+  
+  function q(){
+   
+     document.getElementById('question').innerHTML = 'what is your name'
+    
+  }
+  
 function reset() {
 document.getElementById('reset').innerHTML = "Reset done";
 }
